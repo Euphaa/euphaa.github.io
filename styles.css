@@ -2,7 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
 }
 
 .navbar {
@@ -90,7 +91,7 @@
 }
 
 .button:hover {
-  background: #4837ff;
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
   transition: all 0.3s ease;
 }
 
@@ -228,6 +229,7 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  font-weight: 800;
 }
 
 .main_content h2 {
@@ -240,12 +242,12 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  font-weight: 800;
 }
 
 .main_content p {
   margin-top: 1rem;
   font-size: 2rem;
-  font-weight: 700;
 }
 
 .main_content h6 {
@@ -370,16 +372,8 @@
 }
 
 .services h1 {
-  background-color: #ff8177;
-  background-image: linear-gradient(
-    to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
-  );
+  background-color: white;
+  background-image: linear-gradient(-20deg, #f70000 20%, #fd6435 80%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -405,7 +399,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/images/pic3.jpg');
+    url('/images/!STOCK_cyber0.jpg');
   background-size: cover;
   position: relative;
   color: #fff;
@@ -419,9 +413,9 @@
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 0%,
-      rgba(17, 17, 17, 0.9) 100%
+      rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/images/pic4.jpg');
+    url('/images/aermored_logo+custom_clipping_text-transparent-894p.png');
 }
 
 .services_card h2 {

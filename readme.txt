@@ -1,0 +1,1 @@
+images with "!STOCK" cannot be used because of copyright and are only temporary.
