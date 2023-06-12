@@ -197,7 +197,7 @@
 
 /* Main Content CSS */
 .main {
-  background-color: #141414;
+  background-color: #131313;
 }
 
 .main_container {
@@ -361,8 +361,8 @@
   }
 }
 
-/* Services Section */
-.services {
+/* info Section */
+.info {
   background: #131313;
   display: flex;
   flex-direction: column;
@@ -371,7 +371,7 @@
   height: 100vh;
 }
 
-.services h1 {
+.info h1 {
   background-color: white;
   background-image: linear-gradient(-20deg, #f70000 20%, #fd6435 80%);
   background-size: 100%;
@@ -383,13 +383,13 @@
   font-size: 2.5rem;
 }
 
-.services_container {
+.info_container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.services_card {
+.info_card {
   margin: 1rem;
   height: 525px;
   width: 400px;
@@ -405,11 +405,11 @@
   color: #fff;
 }
 
-.services_card:before {
+.info_card:before {
   opacity: 0.2;
 }
 
-.services_card:nth-child(2) {
+.info_card:nth-child(2) {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 0%,
@@ -418,19 +418,19 @@
     url('/images/aermored_logo+custom_clipping_text-transparent-894p.png');
 }
 
-.services_card h2 {
+.info_card h2 {
   position: absolute;
   top: 350px;
   left: 30px;
 }
 
-.services_card p {
+.info_card p {
   position: absolute;
   top: 400px;
   left: 30px;
 }
 
-.services_card button {
+.info_card button {
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -443,37 +443,37 @@
   font-size: 1rem;
 }
 
-.services_card button:hover {
+.info_card button:hover {
   cursor: pointer;
 }
 
-.services_card:hover {
+.info_card:hover {
   transform: scale(1.075);
   transition: 0.2s ease-in;
   cursor: pointer;
 }
 
 @media screen and (max-width: 960px) {
-  .services {
+  .info {
     height: 1600px;
   }
 
-  .services h1 {
+  .info h1 {
     font-size: 2rem;
     margin-top: 12rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .services {
+  .info {
     height: 1400px;
   }
 
-  .services h1 {
+  .info h1 {
     font-size: 1.2rem;
   }
 
-  .services_card {
+  .info_card {
     width: 300px;
   }
 }
@@ -563,6 +563,7 @@
 
 .social_icons {
   display: flex;
+  height: 24px;
   justify-content: space-between;
   align-items: center;
   width: 240px;
@@ -614,4 +615,68 @@
     padding: 10px;
     width: 100%;
   }
+}
+
+.contact_container {
+  width: 90%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact_form_container {
+  display: flex;
+  width: 60%;
+  height: 600px;
+}
+
+.contact_details_container {
+  display: flex;
+  width: 35%;
+  min-width: 150px;
+  background-color: #131313;
+}
+
+.contact_details h1 {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.contact_details p {
+  color: #fff;
+  font-size: 22px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #18181b;
+  background-color: #5f5b5b;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=text], text {
+  color: #f1f1f1;
+}
+
+input[type=submit] {
+  height: fit-content;
+  width: fit-content;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  background-image: linear-gradient(-20deg, #f70000 20%, #fd6435 95%);
+  color: #fff;
+}
+
+input[type=submit]:hover {
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  transition: all 0.3s ease;
 }

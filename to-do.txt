@@ -1,0 +1,18 @@
+fix links
+create other pages
+figure out what pages are needed
+find images for services
+    redo services section?
+ask about stock image use
+    find some better images
+figure out slideshow thing
+change variables to work with high res
+finish contact form
+link contact form to app.js
+fix buttons being links instead of buttons (just hitboxes being annoying)
+add contact info to footer
+fix copyright being towards the right side
+animate the rest of the buttons
+    find a better way to animate all the buttons
+remove animation from info section panels
+add another panel to info section
