@@ -16,5 +16,4 @@ animate the rest of the buttons
     find a better way to animate all the buttons
 remove animation from info section panels
 change info section panels to be buttons instead of having buttons in them
-figure out bar
-replace more information with arrow/button
+figure out mobile bar
