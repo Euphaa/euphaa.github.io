@@ -196,7 +196,6 @@
   }
 }
 
-/* Main Content CSS */
 .main {
   background-color: #131313;
 }
@@ -322,7 +321,6 @@
   cursor: pointer;
 }
 
-/* Mobile Responsive */
 @media screen and (max-width: 768px) {
   .main_container {
     display: grid;
@@ -375,7 +373,6 @@
   }
 }
 
-/* info Section */
 .info {
   background: #131313;
   display: flex;
@@ -398,7 +395,7 @@
   width: 400px;
   border-radius: 4px;
   justify-content: center;
-  background-image: url('/images/!STOCK_cyber0.jpg');
+  background-image: url('/images/!STOCK_server2.jpg');
   background-size: cover;
   position: relative;
   color: #fff;
@@ -409,7 +406,7 @@
 }
 
 .info_card:nth-child(2) {
-  background-image: url('/images/aermored_logo+custom_clipping_text-transparent-894p.png');
+  background-image: url('/images/!STOCK_server3');
 }
 
 .info_card:nth-child(3) {
@@ -487,7 +484,6 @@
   }
 }
 
-/* Footer CSS */
 .footer_container {
   background-color: #141414;
   padding: 5rem 0;
@@ -550,7 +546,6 @@
   transition: 0.3s ease-out;
 }
 
-/* Social Icons */
 .social_icon--link {
   color: #fff;
   font-size: 24px;
