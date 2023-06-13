@@ -1,11 +1,12 @@
 fix links
 create other pages
 figure out what pages are needed
-find images for services
-    redo services section?
+find images for info section
+    redo info section?
 ask about stock image use
     find some better images
 figure out slideshow thing
+    replace info section with slideshow?
 change variables to work with high res
 finish contact form
 link contact form to app.js
@@ -17,3 +18,4 @@ animate the rest of the buttons
 remove animation from info section panels
 change info section panels to be buttons instead of having buttons in them
 figure out mobile bar
+find a cleaner way to make the info_card h2:hover {cursor: pointer;}
