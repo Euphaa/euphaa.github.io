@@ -382,7 +382,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 550px;
 }
 
 .info_container {
@@ -398,12 +398,7 @@
   width: 400px;
   border-radius: 4px;
   justify-content: center;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(17, 17, 17, 0.6) 100%
-    ),
-    url('/images/!STOCK_cyber0.jpg');
+  background-image: url('/images/!STOCK_cyber0.jpg');
   background-size: cover;
   position: relative;
   color: #fff;
@@ -414,12 +409,7 @@
 }
 
 .info_card:nth-child(2) {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(17, 17, 17, 0.6) 100%
-    ),
-    url('/images/aermored_logo+custom_clipping_text-transparent-894p.png');
+  background-image: url('/images/aermored_logo+custom_clipping_text-transparent-894p.png');
 }
 
 .info_card:nth-child(3) {
@@ -431,7 +421,15 @@
   color: white;
   bottom: 80px;
   left: 30px;
-  z-index: 1000;
+  z-index: 100;
+}
+
+.info_card h2:hover {
+  cursor: pointer;
+}
+
+.info_card p:hover {
+  cursor: pointer;
 }
 
 .info_card p {
@@ -439,11 +437,7 @@
   color: white;
   bottom: 30px;
   left: 30px;
-  z-index: 1000;
-}
-
-.info_card:hover {
-  cursor: pointer;
+  z-index: 100;
 }
 
 .info_card .redirect {
@@ -458,13 +452,14 @@
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0) 30%,
-    rgba(17, 17, 17, .4) 90%
+    rgba(17, 17, 17, .9) 90%
   );
   transition: all .3s ease-in-out;
 }
 
 .info_card .redirect:hover {
-  opacity: 30%;
+  opacity: 70%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 960px) {
