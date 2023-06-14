@@ -19,9 +19,9 @@
 <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script>
-      load_cake(){
+      function load_cake();{
         cake.innerHTML = await (await fetch(subs/cake.html)).text();
-    }
+      }
       </script>
   </head>
   <body>
@@ -63,9 +63,9 @@
           <li class="navbar_dropdown">
             <p class="navbar_item">Services</a>
             <ul>
-              <li><a class="navbar_item" href="">Details</a></li>
+              <li><a class="navbar_item" href="page-services.html">Details</a></li>
               <li><a class="navbar_item" href="">Pricing</a></li>
-              <li><a class="navbar_item" href="">Capabilities</a></li>
+              <li><a class="navbar_item" href="page-services.html/#capabilities">Capabilities</a></li>
               <li><a class="navbar_item" href="">Guarentees</a></li>
               <li><a class="navbar_item" href="">Support</a></li>
               <li><a class="navbar_item" href="">Inquiries</a></li>
@@ -123,9 +123,6 @@
         </div>
       </div>
     </div>
-    <a href="#" onclick="load_cake()"> Load </a> </div>
-        
-        <div id="cake">
 <!-- footer -->
     <div class="footer_container">
       <div class="footer_links">

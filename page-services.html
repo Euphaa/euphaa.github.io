@@ -17,33 +17,143 @@
       <link rel="icon" type="image/png" href="icon.png"/>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="navbar_container">
-        <a href="index.html" id="navbar_logo"><img class="logo"
-          src="images/aermored_logo+custom_side_text-transparent.png" 
-          ></i></a>
-        <div class="navbar_toggle" id="mobile-menu">
-          <span class="bar"></span> <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar_menu">
-          <li class="navbar_item">
-            <a href="index.html" class="navbar_links">Home</a>
+<!-- navbar -->
+<nav class="navbar">
+  <div class="navbar_container">
+    <a href="index.html" id="navbar_logo"><img class="logo"
+      src="images/aermored_logo+custom_side_text-transparent.png" 
+      ></i></a>
+    <div class="navbar_toggle" id="mobile-menu">
+      <span class="bar"></span> <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="navbar_menu">
+
+      <li class="navbar_dropdown">
+        <p class="navbar_item">Career</a>
+        <ul>
+          <li><a class="navbar_item" href="">Employee Portal</a></li>
+          <li><a class="navbar_item" href="">Benefits</a></li>
+          <li><a class="navbar_item" href="">Jobs</a></li>
+          <li><a class="navbar_item" href="">Procas</a></li>
+          <li><a class="navbar_item" href="">Booking</a></li>
+        </ul>
+      </li>
+        
+      <li class="navbar_dropdown">
+        <p class="navbar_item">Contracts</a>
+        <ul>
+          <li><a class="navbar_item" href="">Option 1</a></li>
+          <li><a class="navbar_item" href="">Option 2</a></li>
+          <li><a class="navbar_item" href="">Option 3</a></li>
+          <li><a class="navbar_item" href="">Option 4</a></li>
+          <li><a class="navbar_item" href="">Option 5</a></li>
+          <li><a class="navbar_item" href="">Option 6</a></li>
+        </ul>
+      </li>
+
+      <li class="navbar_dropdown">
+        <p class="navbar_item">Services</a>
+        <ul>
+          <li><a class="navbar_item" href="">Details</a></li>
+          <li><a class="navbar_item" href="">Pricing</a></li>
+          <li><a class="navbar_item" href="">Capabilities</a></li>
+          <li><a class="navbar_item" href="">Guarentees</a></li>
+          <li><a class="navbar_item" href="">Support</a></li>
+          <li><a class="navbar_item" href="">Inquiries</a></li>
+        </ul>
+      </li>
+      <li class="navbar_dropdown">
+        <a href="page-about.html" class="navbar_item">About</a>
+      </li>
+
+      <li class="navbar_btn"><a href="page-contact_us.html" class="button">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- main -->
+<div class="body">
+  <div class="body_text_container">
+    <div class="body_text">
+      <h1>Our Services</h1>
+      <div class="services_container">
+        <div class="service_card">Vulnerability Scanning</div>
+        <div class="service_card">Database Security Testing</div>
+        <div class="service_card">Information Gathering</div>
+        <div class="service_card">Malware Analysis & Development</div>
+        <div class="service_card">Network Mapping</div>
+        <div class="service_card">Remote Access Testing</div>
+        <div class="service_card">Social Engineering</div>
+        <div class="service_card">Reverse Engineering</div>
+        <div class="service_card">Network Penetration Testing</div>
+        <div class="service_card">Active Directory Security Testing</div>
+        <div class="service_card">Physical Security Assessment</div>
+        <div class="service_card">Mobile Application Testing</div>
+        <div class="service_card">Post-Exploitation</div>
+        <div class="service_card">Web Application Security Testing</div>
+        <div class="service_card">Wireless Testing</div>
+        <div class="service_card">Source Code Review</div>
+        <div class="service_card">Infrastructure Testing</div>
+        <div class="service_card">Cloud Security Testing</div>
+        <div class="service_card">Insider Threat Simulation</div>
+        <div class="service_card">Cyber Training</div>
+      </div>
+      <h1 id="capabilities" >Our Capabilities</h1>
+      <div class="capabilities_container">
+        <ul>
+          <li><a onclick="toggle_block('penetration_testing')">Penetration Testing</a>
+            <div id="penetration_testing" class="capabilities">
+              <h2>CLOSE ACCESS TEAM</h2>
+              <p>Social Engineering: Ability to manipulate individuals into divulging sensitive information or performing specific actions.
+
+                Physical Security Assessment: Ability to evaluate the target's physical security controls and procedures.
+                
+                Wireless Testing: Ability to evaluate the target's wireless security controls and procedures.
+                
+                Insider Threat Simulation: Ability to simulate an insider threat scenario to evaluate the target's ability to detect and respond to such a threat.
+                
+                Information Gathering: Ability to gather information about the target network, systems, and people.
+                
+                Web Application Security Testing: Ability to evaluate the security and identify vulnerabilities of web-based apps and services.</p>
+              <h2>MALWARE ANALYSIS</h2>
+              <p>Malware Analysis and Development: Ability to analyze and develop custom malware for use in penetration testing.
+
+                Engineering: Ability to reverse engineer software and hardware systems to identify vulnerabilities and develop exploits.</p>
+              <h2>MOBILE</h2>
+              <p>Mobile Application Testing: Ability to evaluate the security of mobile applications and devices.</p>
+              <h2>THREAT EMULATION</h2>
+              <p>Network Penetration Testing: Ability to penetrate the target network and identify security weaknesses.
+
+                Post-Exploitation: Ability to perform tasks and gather information on the target systems after a successful exploitation.
+                
+                Infrastructure Testing: Ability to evaluate the security of the target's infrastructure, including servers, routers, switches, and firewalls.
+                
+                Database Security Testing: Ability to evaluate the security of databases and identify potential risks.
+                
+                Remote Access Testing: Ability to evaluate the security of remote access solutions, such as VPNs and RDP.
+                
+                Active Directory Security Testing: Ability to evaluate the security of Microsoft Active Directory domains.</p>
+              <h2>CLOUD</h2>
+              <p>Cloud Security Assessment: Ability to evaluate the security of cloud-based infrastructure and services.
+
+                Information Gathering: Ability to gather information about the target network, systems, and people.</p>
+              <h2>MISCELLANEOUS</h2>
+              <p>Source Code Review: Ability to review and evaluate the security of source code.
+
+                Cyber Training: Ability to train for deficiencies found during operations.
+                
+                Cyber Range
+                
+                IoT/SCADA</p>
+            </div>
           </li>
-          <li class="navbar_item">
-            <a href="page-contracts.html" class="navbar_links">Contracts</a>
-          </li>
-          <li class="navbar_item">
-            <a href="page-career.html" class="navbar_links">Career</a>
-          </li>
-          <li class="navbar_item">
-            <a href="page-services.html" class="navbar_links">Services</a>
-          </li>
-          <li class="navbar_btn"><a href="page-contact_us.html" class="button">Contact Us</a></li>
+          <li>Cybersecurity</li>
+          <li>Information Technology</li>
         </ul>
       </div>
-    </nav>
+    </div>
+  </div>
+</div>
     <!-- Footer -->
     <div class="footer_container">
       <div class="footer_links">

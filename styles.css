@@ -63,12 +63,16 @@
   padding-top: 28px;
 }
 
+.navbar_dropdown:hover {
+  cursor: pointer;
+}
+
 .navbar_dropdown ul {
   position: absolute;
   top: 100%;
   display: none;
   background: #131313;
-  border-radius: 3px;
+  border-radius: 4px;
   margin-top: -4px;
   z-index: 1001;
 }
@@ -120,6 +124,7 @@
   border-radius: 4px;
   background-image: linear-gradient(-20deg, #f70000 20%, #fd6435 95%);
   color: #fff;
+  transition: all 0.3s ease;
 }
 
 .button:hover {
@@ -128,7 +133,7 @@
 }
 
 .navbar_item:hover {
-  color: #f77062;
+  color: #fa391e;
   transition: all 0.3s ease;
 }
 
@@ -255,6 +260,7 @@
   font-size: 4rem;
   background-image: linear-gradient(-20deg, #f70000 20%, #fd6435 80%);
   background-size: 100%;
+  background-clip: unset;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -268,6 +274,7 @@
   background-color: #ff8177;
   background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
   background-size: 100%;
+  background-clip: unset;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -754,6 +761,7 @@ input[type=submit]:hover {
   background-color: white;
   background-image: linear-gradient(-20deg, #f70000 20%, #fd6435 80%);
   background-size: 100%;
+  background-clip: unset;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -770,4 +778,32 @@ input[type=submit]:hover {
 .about_content {
   display: flex;
   color: white;
+}
+
+.body {
+
+}
+
+.body_text_container {
+
+}
+
+.body_text {
+
+}
+
+.services_container {
+
+}
+
+.service_card {
+
+}
+
+.capabilities_container {
+
+}
+
+.capabilities {
+  display: none;
 }
