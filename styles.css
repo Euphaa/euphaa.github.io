@@ -54,11 +54,42 @@
   text-align: center;
 }
 
-.navbar_item {
+.navbar_dropdown {
   height: 80px;
 }
 
-.navbar_links {
+.navbar_dropdown a {
+  display: block;
+  padding-top: 28px;
+}
+
+.navbar_dropdown ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+  background: #131313;
+  border-radius: 3px;
+  margin-top: -4px;
+  z-index: 1001;
+}
+
+.navbar_dropdown ul li {
+  display: block;
+  text-align: left;
+}
+
+.navbar_dropdown ul a {
+  padding-left: 15px;
+  padding-top: 0;
+  padding-bottom: 15px;
+  padding-right: 70px;
+}
+  
+.navbar_dropdown:hover ul {
+  display: block;
+}
+
+.navbar_item {
   color: #fff;
   display: flex;
   align-items: center;
@@ -96,7 +127,7 @@
   transition: all 0.3s ease;
 }
 
-.navbar_links:hover {
+.navbar_item:hover {
   color: #f77062;
   transition: all 0.3s ease;
 }
@@ -147,11 +178,11 @@
     background: #fff;
   }
 
-  .navbar_item {
+  .navbar_dropdown {
     width: 100%;
   }
 
-  .navbar_links {
+  .navbar_item {
     text-align: center;
     padding: 2rem;
     width: 100%;
@@ -392,23 +423,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 550px;
+  height: 90vh;
 }
 
 .info_container {
   display: flex;
-  margin-top: 25vh;
+  margin-top: 4vh;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .info_card {
-  margin: 1rem;
-  height: 525px;
-  width: 400px;
+  margin: .5rem;
+  height: 35vh;
+  width: 25vw;
   border-radius: 4px;
   justify-content: center;
-  background-image: url('/images/!STOCK_server2.jpg');
+  background-image: url('images/!STOCK_server2.jpg');
   background-size: cover;
   position: relative;
   color: #fff;
@@ -419,29 +450,33 @@
 }
 
 .info_card:nth-child(2) {
-  background-image: url('/images/!STOCK_server3.jpg');
+  background-image: url('images/!STOCK_server3.jpg');
 }
 
 .info_card:nth-child(3) {
-  background-image: url('/images/cake.jpg');
+  background-image: url('images/cake.jpg');
+}
+
+.info_card:nth-child(4) {
+  background-image: url('images/!STOCK_contract.jpg');
+}
+
+.info_card:nth-child(5) {
+  background-image: url('images/!STOCK_key-in-lock.jpg');
+}
+
+.info_card:nth-child(6) {
+  background-image: url('images/!STOCK_woman-holding-phone.avif')
 }
 
 .info_card h2 {
-  position: absolute;
-  color: white;
-  bottom: 80px;
-  left: 30px;
-  z-index: 100;
-  pointer-events: none;
-}
-
-.info_card p {
   position: absolute;
   color: white;
   bottom: 30px;
   left: 30px;
   z-index: 100;
   pointer-events: none;
+  font-size: 2.34vw;
 }
 
 .info_card .redirect {
@@ -455,15 +490,15 @@
   z-index: 50;
   background-image: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, .15) 30%,
-    rgba(17, 17, 17, .9) 77%
+    rgba(0, 0, 0, .15) 15%,
+    rgba(17, 17, 17, .8) 60%
   );
-  transition: all .15s ease-in-out;
+  transition: all .25s ease-in-out;
   opacity: 85%;
 }
 
 .info_card .redirect:hover {
-  opacity: 100%;
+  opacity: 95%;
   cursor: pointer;
 }
 

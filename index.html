@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AERMORed Home</title>
     <link rel="stylesheet" href="styles.css" />
+<!-- fonts -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
@@ -15,9 +16,16 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;800;900&display=swap" rel="stylesheet">
       <link rel="icon" type="image/png" href="icon.png"/>
+<!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+      load_cake(){
+        cake.innerHTML = await (await fetch(subs/cake.html)).text();
+    }
+      </script>
   </head>
   <body>
-    <!-- Navbar -->
+<!-- navbar -->
     <nav class="navbar">
       <div class="navbar_container">
         <a href="index.html" id="navbar_logo"><img class="logo"
@@ -28,23 +36,50 @@
           <span class="bar"></span>
         </div>
         <ul class="navbar_menu">
-          <li class="navbar_item">
-            <a href="index.html" class="navbar_links">Home</a>
+
+          <li class="navbar_dropdown">
+            <p class="navbar_item">Career</a>
+            <ul>
+              <li><a class="navbar_item" href="">Employee Portal</a></li>
+              <li><a class="navbar_item" href="">Benefits</a></li>
+              <li><a class="navbar_item" href="">Jobs</a></li>
+              <li><a class="navbar_item" href="">Procas</a></li>
+              <li><a class="navbar_item" href="">Booking</a></li>
+            </ul>
           </li>
-          <li class="navbar_item">
-            <a href="page-contracts.html" class="navbar_links">Contracts</a>
+            
+          <li class="navbar_dropdown">
+            <p class="navbar_item">Contracts</a>
+            <ul>
+              <li><a class="navbar_item" href="">Option 1</a></li>
+              <li><a class="navbar_item" href="">Option 2</a></li>
+              <li><a class="navbar_item" href="">Option 3</a></li>
+              <li><a class="navbar_item" href="">Option 4</a></li>
+              <li><a class="navbar_item" href="">Option 5</a></li>
+              <li><a class="navbar_item" href="">Option 6</a></li>
+            </ul>
           </li>
-          <li class="navbar_item">
-            <a href="page-career.html" class="navbar_links">Career</a>
+
+          <li class="navbar_dropdown">
+            <p class="navbar_item">Services</a>
+            <ul>
+              <li><a class="navbar_item" href="">Details</a></li>
+              <li><a class="navbar_item" href="">Pricing</a></li>
+              <li><a class="navbar_item" href="">Capabilities</a></li>
+              <li><a class="navbar_item" href="">Guarentees</a></li>
+              <li><a class="navbar_item" href="">Support</a></li>
+              <li><a class="navbar_item" href="">Inquiries</a></li>
+            </ul>
           </li>
-          <li class="navbar_item">
-            <a href="page-services.html" class="navbar_links">Services</a>
+          <li class="navbar_dropdown">
+            <a href="page-about.html" class="navbar_item">About</a>
           </li>
+
           <li class="navbar_btn"><a href="page-contact_us.html" class="button">Contact Us</a></li>
         </ul>
       </div>
     </nav>
-    <!-- Main -->
+<!-- Main -->
     <div class="main">
       <div class="main_container">
         <div class="main_content">
@@ -59,34 +94,39 @@
       </div>
       <a href="#scroll_arrow_0"><img id="scroll_arrow_0" class="scroll_arrow" src="images/down_arrow.svg" alt="scroll down"></a>
     </div>
-    <!-- info_cards -->
+<!-- info_cards -->
     <div class="info">
       <div class="info_container">
         <div class="info_card">
           <h2>What We Do</h2>
-          <p>Explore our capabilities</p>
           <a href="page-about.html" class="redirect">hello</a>
         </div>
         <div class="info_card">
-          <h2>Other thing</h2>
-          <p>subtitle</p>
+          <h2>Services</h2>
+          <a href="page-page-about.html" class="redirect">hello</a>
+        </div>
+        <div class="info_card">
+          <h2>Click for some cake</h2>
           <a href="page-cake.html" class="redirect">hello</a>
         </div>
         <div class="info_card">
-          <h2>Third Button</h2>
-          <p>click for some cake</p>
-          <a href="page-cake.html" class="redirect">hello</a>
+          <h2>Contracts</h2>
+          <a href="page-contracts.html" class="redirect">hello</a>
+        </div>
+        <div class="info_card">
+          <h2>Capabilities</h2>
+          <a href="page-capabilities.html" class="redirect">hello</a>
+        </div>
+        <div class="info_card">
+          <h2>Contact us</h2>
+          <a href="page-about.html" class="redirect">hello</a>
         </div>
       </div>
     </div>
-    <!-- About -->
-    <div class="about">
-      <h1>About</h1>
-      <div class="about_container">
-        <div class="about content"></div>
-      </div>
-    </div>
-    <!-- Footer -->
+    <a href="#" onclick="load_cake()"> Load </a> </div>
+        
+        <div id="cake">
+<!-- footer -->
     <div class="footer_container">
       <div class="footer_links">
         <div class="footer_link--wrapper">
