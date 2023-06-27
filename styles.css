@@ -243,7 +243,7 @@ body {
   width: 100%;
   height: 10vh;
   margin-top: -10vh;
-  z-index: 5;
+  z-index: 50;
   background-image: linear-gradient(to bottom, #13131300, #131313);
 }
 
@@ -287,8 +287,7 @@ body {
   grid-template-columns: 1.4fr 1fr;
   align-items: center;
   justify-self: center;
-  margin: -8vh auto;
-  height: 90vh;
+  margin: 3vh auto;
   background-color: #13131300;
   z-index: 1;
   width: 100%;
@@ -310,7 +309,7 @@ body {
   max-height: 70vh;
   width: auto;
   pointer-events: none;
-  padding: 50px 0 30px 70px;
+  padding: 70px 0 0 70px;
 }
 
 .main_content h1 {
@@ -397,8 +396,7 @@ body {
 .scroll_arrow {
   justify-self: center;
   max-height: 5vh;
-  margin-top: -9vh;
-  margin: auto;
+  margin: 0 auto;
   display: block;
   text-align: center;
   animation: bounce 0.5s;
@@ -484,7 +482,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 90vh;
-  margin-top: 0;
+  margin-top: -3vh;
 }
 
 .info_container {
